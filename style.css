@@ -1,0 +1,22 @@
+body{
+    margin: 0 auto;
+}
+.linha{
+    background-color: rgb(123, 223, 23);
+    height: 5px;
+    width: 100%;
+}
+header{
+    justify-items: space-between;
+    height: 400px;
+    width: 100%;
+}
+.background{
+    background-image: url("imagens/banner.png");
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    justify-self: center;
+    display:flex;
+}
