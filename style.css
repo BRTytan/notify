@@ -1,11 +1,15 @@
+/* ========================== Default ================================== */
 body{
     margin: 0 auto;
 }
+/* ========================== nav ================================== */
 .linha{
     background-color: rgb(123, 223, 23);
     height: 5px;
     width: 100%;
 }
+
+/* ========================== HEADER ================================== */
 header{
     justify-items: space-between;
     height: 400px;
@@ -19,4 +23,16 @@ header{
     width: 100%;
     justify-self: center;
     display:flex;
+}
+.coluna{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    height: 150px;
+    width: 25%;
+}
+.text{
+    justify-content: center;
+    text-align: justify;
+    color: white;
 }
