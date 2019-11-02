@@ -15,6 +15,9 @@ header{
     height: 400px;
     width: 100%;
 }
+div{
+    background-repeat: no-repeat;
+}
 .background{
     background-image: url("imagens/banner.png");
     background-size: cover;
@@ -32,10 +35,13 @@ header{
     height: 150px;
     width: 25%;
 }
-.text{
+.textGeral{
     justify-content: center;
     text-align: justify;
     color: white;
+}
+.textEspec{
+    font-family: 'Pacifico', cursive;
 }
 .icons{
     border-radius: 75%;
@@ -43,6 +49,7 @@ header{
     backdrop-filter:initial;
 }
 .imageHand{
+    background-repeat: none;
     height: 400px;
     width: 56%;
     background-image: url("imagens/hand.png");
