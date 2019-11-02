@@ -21,13 +21,14 @@ header{
     background-position: center;
     height: 100%;
     width: 100%;
-    justify-self: center;
+    justify-content: center;
     display:flex;
+    padding-top: 50px;
 }
 .coluna{
     display: flex;
     flex-direction: column;
-    background-color: black;
+    background-color:none;
     height: 150px;
     width: 25%;
 }
@@ -35,4 +36,14 @@ header{
     justify-content: center;
     text-align: justify;
     color: white;
+}
+.icons{
+    border-radius: 75%;
+    background-color: rgba(10,23,55,0.5);
+    backdrop-filter:initial;
+}
+.imageHand{
+    height: 400px;
+    width: 56%;
+    background-image: url("imagens/hand.png");
 }
