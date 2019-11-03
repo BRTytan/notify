@@ -41,12 +41,11 @@ header{
 .coluna{
     display: flex;
     flex-direction: column;
-    background-color:none;
     height: 150px;
     width: 25%;
+    align-items: flex-end;
 }
 .textGeral{
-    justify-content: center;
     text-align: justify;
     color: white;
 }
@@ -55,45 +54,107 @@ header{
 }
 .iconsGeral{
     border-radius: 100%;
-    margin: 5px 5px 5px ;
     display:flex;
     align-content: center;
     background-size: 25px;
     background-color: rgba(10,23,55,0.5);
     height: 35px;
     width: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3px;
+    text-align: center;
+    background-color: none;
+    border: 1px solid #dbdbdb;
 }
 .icons1{
     border-image: 25px;
+    border-radius: 100%;
     background-color: rgba(10,23,55,0.5);
     height: 35px;
     width: 45px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    text-align: center;
+    background-color: #02eb29;
+    border: 1px solid #dbdbdb;
 }
 .icons2{
-    background-color: rgba(145, 255, 0, 0.795);
+    border-image: 25px;
+    border-radius: 100%;
+    background-color: rgba(10,23,55,0.5);
     height: 35px;
     width: 45px;
-    border-radius: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    text-align: center;
+    background-color:rgba(red, green, blue, alpha);
+    border: 1px solid #dbdbdb;
+    color: rgba(10, 23, 55, 0);
 }
 .imageHand{
     background-repeat: none;
     height: 400px;
     width: 56%;
-    background-image: url("imagens/hand.png");
 }
 /* ========================== SECTION ================================== */
-section{
+.section1{
     display: flex;
     justify-content: space-around;
     height: 300px;
-    background-color: rgb(213, 213, 224);
+    background-color:white;
     width: 100%;
     align-items: center;
 }
 .div1{
     display:flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.div2{
+    height: 200px;
+    width: 400px;
+}
+.div3{
+    display:flex;
+    justify-content: space-around;
+    flex-direction: column;    
 }
 p{
     align-content:center;
     text-align: center;
+    font-weight: bold;
+}
+.p1{
+    color: grey;
+}
+.section2{
+    background-color: #ddd9d9;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.linha1{
+    align-items: center;
+    justify-content: space-around;
+    display:flex;
+    flex-direction: row;
+    height: 55px ;
+    width: 155px;
+    margin-left: 30%;
+}
+iframe{
+    height: 100%;
+    width: 100%;
+    margin-left: 50px;
+}
+.video{
+    display: flex;
+    height: 200px;
+    width: 400px;
 }
