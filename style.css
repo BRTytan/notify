@@ -11,15 +11,22 @@ body{
     height: 5px;
     width: 100%;
 }
+nav{
+    display:flex;
+    flex-direction: row;
+}
 
 /* ========================== HEADER ================================== */
 header{
     justify-items: space-between;
-    height: 400px;
+    height: 75%;
     width: 100%;
 }
-div{
+.div1{
+    display: flex;
+    flex-direction:column;
     background-repeat: no-repeat;
+    align-items: center;
 }
 .background{
     background-image: url("imagens/banner.png");
@@ -48,6 +55,7 @@ div{
 }
 .iconsGeral{
     border-radius: 100%;
+    margin: 5px 5px 5px ;
     display:flex;
     align-content: center;
     background-size: 25px;
@@ -55,15 +63,37 @@ div{
     height: 35px;
     width: 45px;
 }
-.icons{
+.icons1{
     border-image: 25px;
     background-color: rgba(10,23,55,0.5);
     height: 35px;
     width: 45px;
+}
+.icons2{
+    background-color: rgba(145, 255, 0, 0.795);
+    height: 35px;
+    width: 45px;
+    border-radius: 25px;
 }
 .imageHand{
     background-repeat: none;
     height: 400px;
     width: 56%;
     background-image: url("imagens/hand.png");
+}
+/* ========================== SECTION ================================== */
+section{
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    background-color: rgb(213, 213, 224);
+    width: 100%;
+    align-items: center;
+}
+.div1{
+    display:flex;
+}
+p{
+    align-content:center;
+    text-align: center;
 }
